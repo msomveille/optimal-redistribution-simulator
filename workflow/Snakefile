@@ -1,0 +1,21 @@
+### include: "rules/common.smk"
+
+###  Target rules ###
+
+rule all:
+    input:
+        "results/figures/Figure_2.png",
+        "results/figures/Figure_3.pdf",
+        "results/figures/Figure_S1.png",
+        "results/figures/Figure_S5.png",
+        "results/figures/Figure_S6.png",
+        "results/figures/Figure_S7.png",
+        "results/figures/Figure_S8.png",
+        "results/figures/Figure_S9.png"
+
+
+###  Modules ###
+
+include: "rules/simulate_connectivity.smk"
+include: "rules/validate_connectivity.smk"
+include: "rules/plot_figures.smk"
