@@ -1,4 +1,4 @@
-This repository contains the code to run the Optimal Redistribution Simulator 
+This repository contains the code to run the Optimal Redistribution Simulator that simulates animal migratory connectivity.
 
 The code supports the analysis in Somveille M, Bay RA, Smith TB, Marra PP & Ruegg KC (2021) A general theory of avian migratory connectivity. Ecology Letters
 
